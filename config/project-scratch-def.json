@@ -1,13 +1,14 @@
 {
-    "orgName": "workshops",
-    "description": "lightning adoption sales workshop",
-    "edition": "Developer",
-    "settings" : {
-        "orgPreferenceSettings" : {
-            "pathAssistantsEnabled" : true,
-            "s1DesktopEnabled": true,
-            "s1EncryptedStoragePref2": false
-        }
-    },
-    "hasSampleData": true
+  "orgName": "workshops",
+  "description": "lightning adoption sales workshop",
+  "edition": "Developer",
+  "features": ["ServiceCloud", "LightningSalesConsole", "LightningServiceConsole", "ServiceUser"],
+  "settings": {
+    "orgPreferenceSettings": {
+      "pathAssistantsEnabled": true,
+      "s1DesktopEnabled": true,
+      "s1EncryptedStoragePref2": false
+    }
+  },
+  "hasSampleData": true
 }
